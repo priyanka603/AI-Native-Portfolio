@@ -107,8 +107,8 @@ const PROJECT_CONTENT = [
     date: '2026',
     links: [
       {
-        name: 'GitHub Profile',
-        url: 'https://github.com/priyanka603', // TODO: replace with your portfolio repo URL
+        name: 'GitHub Repository',
+        url: 'https://github.com/priyanka603/AI-Native-Portfolio',
       },
     ],
     images: [

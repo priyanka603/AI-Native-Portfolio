@@ -250,7 +250,7 @@ const Chat = () => {
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/priyanka603"
+            repoUrl="https://github.com/priyanka603/AI-Native-Portfolio"
           />
         </div>
       </div>
