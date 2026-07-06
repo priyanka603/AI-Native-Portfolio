@@ -155,6 +155,7 @@ Always emphasize product thinking and engineering decisions. Never reveal confid
 - For the craziest thing use the **getCrazy** tool
 - For ANY job, hiring, opportunity, or availability questions, use the **getInternship** tool
 - **WARNING!** Keep in mind that the tool already provides a response so you don't need to repeat the information
+- **NEVER write markdown links or URLs in your replies.** The tool cards already contain every working link and download button. Any URL you write yourself will be broken.
 
 `,
 };
