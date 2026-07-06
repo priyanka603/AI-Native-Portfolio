@@ -6,8 +6,6 @@ import { Separator } from '@/components/ui/separator';
 
 // --- PROJECT DATABASE ---
 // This array holds the detailed information for each project.
-// NOTE: several image paths below are placeholders reused from the original
-// template — replace them with your own screenshots when you have them.
 const PROJECT_CONTENT = [
   {
     title: 'IrishPath',
@@ -85,8 +83,8 @@ const PROJECT_CONTENT = [
     date: 'Jul 2024 – Feb 2026',
     links: [],
     images: [
-      // TODO: replace with a real screenshot or architecture diagram (mind the NDA)
-      { src: '/projects/cwt-dashboard.png', alt: 'Multi-agent platform preview placeholder' },
+      // Illustrative image — the real platform is confidential (built under NDA at Techdome)
+      { src: '/projects/cwt-dashboard.png', alt: 'Illustration of a multi-agent automation platform' },
     ],
   },
   {
@@ -131,8 +129,7 @@ const PROJECT_CONTENT = [
     date: 'Jun 2022 – Aug 2022',
     links: [],
     images: [
-      // TODO: replace with real dashboard screenshots
-      { src: '/projects/Zomato_Interactive Zomato Dashboard.png', alt: 'BI dashboard preview placeholder' },
+      { src: '/projects/Zomato_Interactive Zomato Dashboard.png', alt: 'Interactive BI dashboard' },
     ],
   },
 ];
