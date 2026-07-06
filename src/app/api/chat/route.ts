@@ -9,11 +9,9 @@ import { getProjects } from './tools/getProjects';
 import { getResume } from './tools/getResume';
 import { getSkills } from './tools/getSkills';
 import { getSports } from './tools/getSports';
-import { getWeather } from './tools/getWeather';
 
 export const maxDuration = 30;
 
-// ❌ Pas besoin de l'export ici, Next.js n'aime pas ça
 function errorHandler(error: unknown) {
   if (error == null) {
     return 'Unknown error';
@@ -47,7 +45,6 @@ export async function POST(req: Request) {
       getSports,
       getCrazy,
       getInternship,
-      getWeather,
     };
 
     const result = streamText({

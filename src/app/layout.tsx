@@ -48,7 +48,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Priyanka Mehta Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@priyankamehta",
   },
   icons: {
     icon: [
@@ -58,7 +57,7 @@ export const metadata: Metadata = {
       }
     ],
     shortcut: "/logo-pm.svg?v=2",
-    apple: "/apple-touch-icon.svg?v=2",
+    apple: "/logo-pm.svg?v=2",
   },
 };
 
